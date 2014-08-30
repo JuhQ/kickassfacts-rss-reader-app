@@ -1,0 +1,9 @@
+<div ng-controller="ContentCtrl" class="padding">
+
+  <p class="lead">
+    {{entry.title}}
+  </p>
+
+  <div ng-bind-html="entry.content | trustAsHtml"></div>
+
+</div>
